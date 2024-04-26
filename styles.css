@@ -1,0 +1,277 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 18px;
+    margin-right: auto;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#best-sellers img {
+    width: 100%;
+    display: block  ;
+    height: auto;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    background-color: #006ca5;
+    color: #ffffff;
+    padding: 24px;
+    align-items: center;
+}
+
+.header-bottom {
+    background-color: #55e2e9;
+    padding: 16px;
+}
+
+.header-bottom li {
+    margin-left: 26px;
+}
+
+.header-bottom #cp-li {
+    margin-left: 19px;
+}
+
+.header-bottom ul { 
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #02367b;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    margin-top: 150px;
+}
+
+a:hover {
+    color: #55e2e9;
+}
+
+.header-bottom a {
+    color: #000000;
+}
+
+.header-bottom a:hover {
+    color: #ffffff;
+}
+
+#best-sellers-text {
+    text-align: center;
+    margin: 70px auto;
+}
+
+#best-sellers {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 50px;
+    justify-content: center;
+    margin: auto;
+}
+
+#best-sellers div {
+    border-style: groove;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 8px;
+    text-align: center;
+}
+
+#best-sellers li {
+    text-align: left;
+}
+
+.product-name {
+    font-weight: 800;
+}
+
+.price {
+    margin: 24px auto;
+    color: #006ca5;
+    font-weight: 800;
+}
+
+.add-to-cart-button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #80c342;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #006ca5;
+}
+
+.add-to-cart-button p {
+    margin: 0;
+    padding: 8px;
+}
+
+
+
+
+/* ABOUT PAGE */
+
+#about-text {
+    text-align: center;
+    margin: 70px auto;
+}
+
+#about-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 30px;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+#about-content img {
+    width: 90%;
+    height: auto;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+#about-content p {
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
+
+
+/* LAPTOPS PAGE*/
+
+#laptops {
+    width: 90%;
+    margin: auto;
+}
+
+#laptops div { 
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 40px;
+    justify-content: center;
+    width: 80%;
+    border: groove;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#laptops div img {
+    width: 90%;
+    height: auto;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+
+
+
+/* SMARTPHONES PAGE*/
+
+#smartphones {
+    width: 90%;
+    margin: auto;
+}
+
+#smartphones div { 
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 40px;
+    justify-content: center;
+    width: 80%;
+    border: groove;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#smartphones div img {
+    width: 90%;
+    height: auto;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+
+
+/* CHECKOUT PAGE */
+
+#checkout-text {
+    text-align: center;
+    margin: 70px auto;
+}
+
+.checkout-content {
+    width: 80%;
+    border-style: inset;
+    border-radius: 10px;
+    margin: auto;
+    padding: 48px;
+}
+
+#item-price {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#item-list {
+    height: 40vh;
+    width: 90%;
+    border: 1px solid #000000;
+    overflow: scroll;
+}
+
+#price-list {
+    height: 40vh;
+    width: 90%;
+    border: 1px solid #000000;
+    overflow: scroll;
+}
+
+.checkout-content button{
+    margin: 10px;
+}

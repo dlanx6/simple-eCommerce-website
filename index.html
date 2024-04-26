@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechExpress | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TechExpress</h1>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="checkout.html"><li>Checkout</li></a>
+            </ul>
+        </header>
+
+        <div class="header-bottom">
+            <ul>
+                <a href="laptop.html"><li>Laptops</li></a>
+                <a href="cp.html"><li id="cp-li">Smartphones</li></a>
+            </ul>
+        </div>
+
+        <div id="best-sellers-text">
+            <h2>Best Sellers</h2>
+        </div>
+
+        <section id="best-sellers">
+            <div id="laptop1">
+                <img src="https://static-ecapac.acer.com/media/catalog/product/2/_/2_7_3.png?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500&format=jpeg" alt="">
+                <p id="laptop1-name" class="product-name">Swift 3 SF314-512-50XM OPI</p>
+                <ul>
+                    <li>Windows 11 Home</li>
+                    <li>Intel® Core™ i5 1240P Processor</li>
+                    <li>8GB RAM</li>
+                    <li>512 GB SSD</li>
+                    <li>14.0" & Intel® Iris® Xe Graphics</li>
+                </ul>
+                <p id="laptop1-price" class="price">₱43,699.00</p>
+                <button onclick="addItem('laptop1-name','laptop1-price')" class="add-to-cart-button">
+                    <p>ADD TO CART</p>
+                </button>   
+            </div>
+
+            <div id="cp1">
+                <img src="https://images.priceoye.pk/realme-c67-pakistan-priceoye-2sie0.jpg" alt="">
+                <p id="cp1-name" class="product-name">Realme C67</p>
+                <ul>
+                    <li>Android 14</li>
+                    <li>Qualcomm Snapdragon 685</li>
+                    <li>8GB RAM</li>
+                    <li>128GB/256GB ROM</li>
+                    <li>108MP 3X In-sensor Zoom Camera</li>
+                    <li>33W SUPERVOOC Charge</li>
+                </ul>
+                <p id="cp1-price" class="price">₱9,999.00</p>
+                <button onclick="addItem('cp1-name', 'cp1-price')" class="add-to-cart-button">
+                    <p>ADD TO CART</p>
+                </button>
+            </div>
+
+            <div id="laptop2">
+                <img src="https://static-ecapac.acer.com/media/catalog/product/f/r/front_15_nx.a1dsp.001.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=500&width=500&canvas=500:500" alt="">
+                <p id="laptop2-name" class="product-name">Aspire 5 A515-56G-5186 OPI</p>
+                <ul>
+                    <li>Windows 11 Home</li>
+                    <li>Intel® Core™i5-1135G7</li>
+                    <li>8GB DDR4 Memory</li>
+                    <li>512GB SSD</li>
+                    <li>15.6" Full HD 1920 x 1080</li>
+                    <li>NVIDIA® GeForce® MX350</li>
+                </ul>
+                <p id="laptop2-price" class="price">₱29,999.00</p>
+                <button onclick="addItem('laptop2-name','laptop2-price')" class="add-to-cart-button">
+                    <p>ADD TO CART</p>
+                </button>
+            </div>
+
+            <div id="cp2">
+                <img src="https://specs.yugatech.com/wp-content/uploads/2023/04/341082590_918800602670080_5021719703563572951_n-jpg-600x600.webp" alt="">
+                <p id="cp2-name" class="product-name">Realme 10 Pro 5g</p>
+                <ul>
+                    <li>Qualcomm Snapdragon 695 5G</li>
+                    <li>6GB, 8GB RAM</li>
+                    <li>128GB or 256GB storage</li>
+                    <li>6.7-inch FHD+, 120Hz refresh rate</li>
+                    <li>108MP Samsung HM6 main</li>
+                    <li>Android 13</li>
+                    <li>5,000mAh battery</li>
+                </ul>
+                
+                <p id="cp2-price" class="price">₱16,999.00</p>
+                <button onclick="addItem('cp2-name', 'cp2-price')" class="add-to-cart-button">
+                    <p>ADD TO CART</p>
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; TechExpress 2024. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

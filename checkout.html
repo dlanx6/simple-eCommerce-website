@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechExpress | Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TechExpress</h1>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="checkout.html"><li>Checkout</li></a>
+            </ul>
+        </header>
+
+        <div class="header-bottom">
+            <ul>
+                <a href="laptop.html"><li>Laptops</li></a>
+                <a href="cp.html"><li id="cp-li">Smartphones</li></a>
+            </ul>
+        </div>
+
+        <div id="checkout-text">
+            <h2>Checkout List</h2>
+        </div>
+
+        <div class="checkout-content">
+            <button onclick="displayCheckout()" class="add-to-cart-button">
+                <p>DISPLAY</p>
+            </button>
+            <button onclick="clearItems()" class="add-to-cart-button">
+                <p>CLEAR</p>
+            </button>
+            <div id="item-price">
+                <h3>Items:</h3>
+                <h3>Price:</h3>
+                <div id="item-list">
+                    
+                </div>
+                <div id="price-list">
+
+                </div>
+            </div> 
+        </div>
+
+        <footer>
+            <p>&copy; TechExpress 2024. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
