@@ -9,8 +9,6 @@ function addItem(itemName, itemPrice) {
     itemNames.push(itemText);
     itemPrices.push(priceText);
 
-    total += cleanPrice(priceText);
-
     localStorage.setItem('itemNames', JSON.stringify(itemNames));
     localStorage.setItem('itemPrices', JSON.stringify(itemPrices));
 }
